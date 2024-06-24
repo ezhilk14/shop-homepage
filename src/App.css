@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar Styles */
+.navbar {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Card Styles */
+.card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Button Styles */
+.btn {
+  margin-top: 10px;
+}
+
+/* Rating Styles */
+.checked {
+  color: orange;
+}
+
+/* Cart Styles */
+.cart {
+  border: 1px solid #e3e6f0;
+  padding: 20px;
+  border-radius: 0.25rem;
+  background-color: #fff;
+}
+
+.cart h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
